@@ -33,7 +33,7 @@ pip install -r requirements.txt
 }
 ```
 
-`config.json   json` 文件中的参数：
+`config.json` 文件中的参数：
 
 - **user_token**：用户认证的令牌。
 - **sessionid**：用于用户会话管理的会话 ID。
