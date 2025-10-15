@@ -8,20 +8,20 @@
 - 所需的 Python 库：
   - `beautifulsoup4`
   - `pycryptodome`
-  - `requests   请求`
+  - `requests`
   - `urllib3`
 
-你可以使用 `pip   皮普` 安装所需的库：
+你可以使用 `pip` 安装所需的库：
 
 ```bash
-pip install -r requirements.tx
+pip install -r requirements.txt
 ```
 
 ## 配置
 
-配置文件 `config.json   json` 包含了你的凭证和自动考试的设置。你需要手动收集必要的信息并填入配置文件中。
+配置文件 `config.json` 包含了你的凭证和自动考试的设置。你需要手动收集必要的信息并填入配置文件中。
 
-```json   ' ' ' json
+```json
 {
     "user_token": "",
     "sessionid": "",
