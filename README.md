@@ -14,7 +14,7 @@
 你可以使用 `pip   皮普` 安装所需的库：
 
 ```bash
-pip install -r requirements.txtPIP install -r requirements.txtPIP install -r requirements.txt
+pip install -r requirements.tx
 ```
 
 ## 配置
