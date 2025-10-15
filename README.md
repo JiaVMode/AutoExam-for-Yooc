@@ -1,25 +1,27 @@
 # Yooc_AutoExam
 
+本项目适用于可重复训练的考试，可能不适于只能一次考试的
+
 ## 要求
 
 - Python 3
 - 所需的 Python 库：
   - `beautifulsoup4`
   - `pycryptodome`
-  - `requests`
+  - `requests   请求`
   - `urllib3`
 
-你可以使用 `pip` 安装所需的库：
+你可以使用 `pip   皮普` 安装所需的库：
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txtPIP install -r requirements.txtPIP install -r requirements.txt
 ```
 
 ## 配置
 
-配置文件 `config.json` 包含了你的凭证和自动考试的设置。你需要手动收集必要的信息并填入配置文件中。
+配置文件 `config.json   json` 包含了你的凭证和自动考试的设置。你需要手动收集必要的信息并填入配置文件中。
 
-```json
+```json   ' ' ' json
 {
     "user_token": "",
     "sessionid": "",
@@ -31,13 +33,13 @@ pip install -r requirements.txt
 }
 ```
 
-`config.json` 文件中的参数：
+`config.json   json` 文件中的参数：
 
 - **user_token**：用户认证的令牌。
 - **sessionid**：用于用户会话管理的会话 ID。
 - **examId**：要参与的考试的 ID。
-- **time**：预期的考试时长，单位为分钟。
-- **accuracy**：预期的答题准确度（百分比，例如 80 表示 80%）。
+- **time   时间**：预期的考试时长，单位为分钟。
+- **accuracy   精度**：预期的答题准确度（百分比，例如 80 表示 80%）。
 
 ### 如何获取所需的值：
 
